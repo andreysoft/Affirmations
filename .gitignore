@@ -1,0 +1,51 @@
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/captures
+.externalNativeBuild
+.cxx
+*.log
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+# Files for the ART/Dalvik VM
+*.dex
+# Generated files
+bin/
+gen/
+out/
+# Gradle files
+.gradle/
+build/
+# User-specific configurations
+.idea/libraries/
+.idea/dictionaries
+.idea/jarRepositories.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/gradle.xml
+.idea/caches
+*.iml
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+# Local configuration file (sdk path, etc)
+local.properties
+# Signing files
+.signing/
