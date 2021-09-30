@@ -2,6 +2,8 @@ package com.github.andreysoft.affirmations
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
+import com.github.andreysoft.affirmations.data.Datasource
 
 class MainActivity : AppCompatActivity()
 {
@@ -9,6 +11,8 @@ class MainActivity : AppCompatActivity()
     {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var i = 1
+
+        val textView : TextView= findViewById(R.id.textview)
+        textView.text = Datasource().loadAffirmations().size.toString()
     }
 }

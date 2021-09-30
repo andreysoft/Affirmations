@@ -1,5 +1,5 @@
 package com.github.andreysoft.affirmations.model
 
-data class Affirmation
+data class Affirmation(val stringResourceId : Int)
 {
 }
