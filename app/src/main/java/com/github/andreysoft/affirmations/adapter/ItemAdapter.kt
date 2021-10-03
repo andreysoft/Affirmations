@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.DateSorter
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.github.andreysoft.affirmations.R
@@ -26,6 +27,7 @@ class ItemAdapter(
     {
         val item : Affirmation = dataset[position]
         holder.textview.text = context.resources.getString(item.stringResourceId)
+        holder.imageView.setImageResource(item.imageResourceId)
     }
 
     override fun getItemCount() =  dataset.size
@@ -34,6 +36,7 @@ class ItemAdapter(
     class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view)
     {
         val textview: TextView = view.findViewById(R.id.item_title)
+        val imageView = view.findViewById<ImageView>(R.id.item_image)
 
     }
 
